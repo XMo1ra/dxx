@@ -88,7 +88,7 @@ namespace apathy {
 		/* Check if the two paths are equivalent
 		*
 		* Two paths are equivalent if they point to the same resource, even if
-		* they are not exact string matches
+		* they are not exact string matches.
 		*
 		* @param other - path to compare to */
 		bool equivalent(const Path& other);
